@@ -1,5 +1,7 @@
 ### Instructions for ReelPhish:
 
+This tool has been released along with a FireEye blog post. The blog post can be found at the following link: https://www.fireeye.com/blog/threat-research/2018/02/reelphish-real-time-two-factor-phishing-tool.html
+
 #### Installation Steps
 
 1. The latest release of Python 2.7.x is required.
